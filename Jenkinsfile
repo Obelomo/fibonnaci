@@ -6,7 +6,7 @@ pipeline {
             description: 'Select the value for F(n) for the Fibonnai sequence.')
     }
     options {
-        buildDiscarder(logRotator(daysToKeepStr: '10', numToKeepStr: '10'))
+        buildDiscarder(logRotator(daysToKeepStr: '2', numToKeepStr: '2'))
         timeout(time: 12, unit: 'HOURS')
         timestamps()
     }
