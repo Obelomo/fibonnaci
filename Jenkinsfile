@@ -31,10 +31,10 @@ pipeline {
                 }
             }
         }
-        stage('Full path') {
-            steps {
-                sh("${env.WORKSPACE}/fibonacci.sh ${env.NUMBER}")
-            }
-        }
+        //stage('Full path') {
+           // steps {
+              //  sh("${env.WORKSPACE}/fibonacci.sh ${env.NUMBER}")
+           // }
+        //}
     }
 }
