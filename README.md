@@ -1,3 +1,5 @@
+[![Build Status](http://localhost:8080/buildStatus/icon?job=fibonnaci_pipeline)](http://localhost:8080/job/fibonnaci_pipeline/)
+
 # 03_03 Run scripts from the pipeline
 [![Build Status](http://localhost:8080/buildStatus/icon?job=fibonnaci_pipeline)](http://localhost:8080/view/jenkinPracNew/job/fibonnaci_pipeline/)
 Pipelines can be used to call scripts that are stored in a repo along with a Jenkinsfile.
